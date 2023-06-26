@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:127675405341:android:dfb4d88ba85ab1037462f4",
         "android_client_info": {
-          "package_name": "ru.transservice.routemanager"
+          "package_name": "ru.sab.routemanager"
         }
       },
       "oauth_client": [

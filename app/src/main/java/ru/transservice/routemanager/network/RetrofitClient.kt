@@ -102,7 +102,7 @@ object RetrofitClient {
 
     private val okHttpClientApache = OkHttpClient.Builder().apply {
         connectTimeout(60, TimeUnit.SECONDS)
-        if (!RootRepository.baseUrl.contains("eko-ekb.ru")) {
+        if (!RootRepository.baseUrl.contains("sab-ekb.ru")) {
             val sslSettings = customSSL()
             sslSocketFactory(sslSettings.first, sslSettings.second)
         }
