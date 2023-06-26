@@ -55,7 +55,7 @@ class RemoteDataSource {
                     .body(ResponseBody.create(response.body()!!.contentType(), rawJson)).build()
             }
         )
-        if (!RootRepository.baseUrl.contains("eko-ekb.ru")) {
+        if (!RootRepository.baseUrl.contains("sab-ekb.ru")) {
             val sslSettings = customSSL()
             sslSocketFactory(sslSettings.first, sslSettings.second)
         }
