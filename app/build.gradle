@@ -14,10 +14,10 @@ android {
     archivesBaseName = "sab"
     defaultConfig {
         applicationId "ru.sab.routemanager"
-        minSdkVersion 26
+        minSdkVersion  26
         targetSdkVersion 31
-        versionCode 31
-        versionName '1.0.4'
+        versionCode 32
+        versionName '1.0.5'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
